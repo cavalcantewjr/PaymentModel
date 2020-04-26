@@ -12,9 +12,9 @@ namespace PaymentContext.Tests.Entities
         [TestMethod]
         public void TestMethod1()
         {
-            var subscription = new Subscription(null);
-            var student = new Student("Junior", "Cavalcalnte", "12487987758", "cavalcantewjr@gmail.com");
-            student.AddSubscription(subscription);
+            //var subscription = new Subscription(null);
+            //var student = new Student("Junior", "Cavalcalnte", "12487987758", "cavalcantewjr@gmail.com");
+            //student.AddSubscription(subscription);
         }
     }
 }

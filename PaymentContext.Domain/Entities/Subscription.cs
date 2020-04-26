@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PaymentContext.Domain.ValueObjects;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -20,7 +21,7 @@ namespace PaymentContext.Domain.Entities
         public DateTime LastUpdateDate { get; private set; }
         public DateTime? ExpireDate { get; private set; }
         public bool Active { get; private set; }
-        public string Address { get; private set; }
+        public Address address { get; private set; }
         public IReadOnlyCollection<Payment> Payments { get; private set; }
 
         public void AddPayment(Payment payment)
